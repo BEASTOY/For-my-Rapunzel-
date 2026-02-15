@@ -1,141 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Small Note 🌸</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="config.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Alex+Brush&family=Allura&family=Poppins:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Small Note 🌸</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="config.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Alex+Brush&family=Allura&family=Poppins:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 </head>
+
 <body>
 
-    <!-- Music Control -->
-    <div class="music-control">
-        <button id="musicToggle" class="music-btn">🎵</button>
-        <audio id="bgMusic" loop>
-            <source src="https://cdn.pixabay.com/download/audio/2022/01/18/audio_d0c6ff1bab.mp3" type="audio/mp3">
-            <source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a73c3a.mp3" type="audio/mp3">
-        </audio>
-    </div>
+  <!-- Music Control -->
+  <div class="music-control">
+    <button id="musicToggle" class="music-btn">🎵</button>
+    <audio id="bgMusic" loop>
+      <source src="https://cdn.pixabay.com/download/audio/2022/01/18/audio_d0c6ff1bab.mp3" type="audio/mp3" />
+      <source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a73c3a.mp3" type="audio/mp3" />
+    </audio>
+  </div>
 
-    <!-- Floating Hearts Background -->
-    <div class="hearts-container"></div>
+  <!-- Floating Hearts Background -->
+  <div class="hearts-container"></div>
 
-    <!-- Main Container -->
-    <div class="container">
+  <!-- Main Container -->
+  <div class="container">
 
-        <!-- Header -->
-        <header class="header">
-            <h1 class="main-title">Hey You 🌸</h1>
-            <p class="subtitle" id="subtitle">I just wanted to say something small…</p>
-        </header>
+    <!-- Header -->
+    <header class="header">
+      <h1 class="main-title">Hey Shivali 🌸</h1>
+      <p class="subtitle" id="subtitle">I just wanted to say something small…</p>
+    </header>
 
-        <!-- Character Section -->
-        <section class="characters-section">
-            <div class="character-container">
+    <!-- Character Section -->
+    <section class="characters-section">
+      <div class="character-container">
 
-                <div class="character" id="partner">
-                    <div class="character-avatar">
-                        <svg viewBox="0 0 100 100" class="character-svg">
-                            <circle cx="50" cy="35" r="20" fill="#FFB6C1" stroke="#FF69B4" stroke-width="2"/>
-                            <path d="M30 60 Q50 45 70 60 Q50 80 30 60" fill="#FFB6C1" stroke="#FF69B4" stroke-width="2"/>
-                            <circle cx="42" cy="32" r="2" fill="#FF1493"/>
-                            <circle cx="58" cy="32" r="2" fill="#FF1493"/>
-                            <path d="M45 40 Q50 45 55 40" stroke="#FF1493" stroke-width="2" fill="none"/>
-                        </svg>
-                    </div>
-                    <h3 id="partnerName">Shivalli 🌷</h3>
-                    <p id="partnerDescription">The sweetest person I know</p>
-                </div>
+        <div class="character" id="partner">
+          <div class="character-avatar">
+            <svg viewBox="0 0 100 100" class="character-svg">
+              <circle cx="50" cy="35" r="20" fill="#FFB6C1" stroke="#FF69B4" stroke-width="2" />
+              <path d="M30 60 Q50 45 70 60 Q50 80 30 60" fill="#FFB6C1" stroke="#FF69B4" stroke-width="2" />
+              <circle cx="42" cy="32" r="2" fill="#FF1493" />
+              <circle cx="58" cy="32" r="2" fill="#FF1493" />
+              <path d="M45 40 Q50 45 55 40" stroke="#FF1493" stroke-width="2" fill="none" />
+            </svg>
+          </div>
+          <h3 id="partnerName">Shivali 🌷</h3>
+          <p id="partnerDescription">The sweetest person I know</p>
+        </div>
 
-                <div class="love-heart">
-                    <svg viewBox="0 0 50 50" class="heart-svg">
-                        <path d="M25 45 C25 45, 5 25, 5 15 C5 10, 10 5, 15 5 C20 5, 25 10, 25 15 C25 10, 30 5, 35 5 C40 5, 45 10, 45 15 C45 25, 25 45, 25 45 Z" fill="#FF69B4"/>
-                    </svg>
-                </div>
+        <div class="love-heart">
+          <svg viewBox="0 0 50 50" class="heart-svg">
+            <path d="M25 45 C25 45, 5 25, 5 15 C5 10, 10 5, 15 5 C20 5, 25 10, 25 15 C25 10, 30 5, 35 5 C40 5, 45 10, 45 15 C45 25, 25 45, 25 45 Z" fill="#FF69B4" />
+          </svg>
+        </div>
 
-                <div class="character" id="you">
-                    <div class="character-avatar">
-                        <svg viewBox="0 0 100 100" class="character-svg">
-                            <circle cx="50" cy="35" r="20" fill="#87CEEB" stroke="#4682B4" stroke-width="2"/>
-                            <rect x="35" y="55" width="30" height="25" rx="5" fill="#87CEEB" stroke="#4682B4" stroke-width="2"/>
-                            <circle cx="42" cy="32" r="2" fill="#4682B4"/>
-                            <circle cx="58" cy="32" r="2" fill="#4682B4"/>
-                            <path d="M45 40 Q50 45 55 40" stroke="#4682B4" stroke-width="2" fill="none"/>
-                        </svg>
-                    </div>
-                    <h3 id="yourName">Shreeshant 😅</h3>
-                    <p id="yourDescription">Just someone who appreciates you</p>
-                </div>
+        <div class="character" id="you">
+          <div class="character-avatar">
+            <svg viewBox="0 0 100 100" class="character-svg">
+              <circle cx="50" cy="35" r="20" fill="#87CEEB" stroke="#4682B4" stroke-width="2" />
+              <rect x="35" y="55" width="30" height="25" rx="5" fill="#87CEEB" stroke="#4682B4" stroke-width="2" />
+              <circle cx="42" cy="32" r="2" fill="#4682B4" />
+              <circle cx="58" cy="32" r="2" fill="#4682B4" />
+              <path d="M45 40 Q50 45 55 40" stroke="#4682B4" stroke-width="2" fill="none" />
+            </svg>
+          </div>
+          <h3 id="yourName">Shreeshant 😅</h3>
+          <p id="yourDescription">Just someone who appreciates you</p>
+        </div>
 
-            </div>
-        </section>
+      </div>
+    </section>
 
-        <!-- Interactive Note Section -->
-        <section class="interaction-section">
-            <button id="loveButton" class="love-btn">Click this (don’t ignore) 😭</button>
-            <div id="loveNote" class="love-note">
-                <p id="loveNoteText">
-                    Honestly… you’re one of the best people I’ve met.<br><br>
-                    Your vibe is rare. Your heart is even rarer.<br><br>
-                    And I just hope you know you matter more than you think. 🌸
-                </p>
-            </div>
-        </section>
+    <!-- Interactive Note -->
+    <section class="interaction-section">
+      <button id="loveButton" class="love-btn">Click this (don’t ignore) 😭</button>
+      <div id="loveNote" class="love-note">
+        <p id="loveNoteText">
+          Okay so this is random 😭 but I just wanted you to know…<br /><br />
+          You’re genuinely one of the sweetest people I’ve met.<br />
+          Your vibe is rare, and talking to you feels easy.<br /><br />
+          I don’t know how to explain it properly, but you matter to me.<br />
+          And I lowkey feel lucky that I know you. 🌷
+        </p>
+      </div>
+    </section>
 
-        <!-- Things I Like -->
-        <section class="memory-gallery">
-            <h2>Things I Like About You ✨</h2>
-            <div class="memories-grid">
-                <div class="memory-card" data-memory="late-night">
-                    <div class="memory-icon">🌙</div>
-                    <h3>Talking To You</h3>
-                    <p id="memoryLateNight">It feels easy. Like I can be myself.</p>
-                </div>
-                <div class="memory-card" data-memory="first-meeting">
-                    <div class="memory-icon">💫</div>
-                    <h3>That One Day</h3>
-                    <p id="memoryFirstMeeting">One day we’ll meet and I know it’ll be a good day.</p>
-                </div>
-                <div class="memory-card" data-memory="care">
-                    <div class="memory-icon">🌷</div>
-                    <h3>Your Energy</h3>
-                    <p id="memoryCare">You’re genuinely sweet. And your presence is comforting.</p>
-                </div>
-            </div>
-        </section>
+    <!-- Photos Section -->
+    <section class="memory-gallery">
+      <h2>Some Cute Moments 📸</h2>
 
-        <!-- Appreciation Meter -->
-        <section class="love-meter-section">
-            <h2>How Much I Appreciate You 🌸</h2>
-            <div class="love-meter">
-                <div class="meter-fill"></div>
-                <span class="love-percentage">100%</span>
-            </div>
-        </section>
+      <div class="memories-grid">
+        <div class="memory-card">
+          <img src="images/1.jpg" style="width:100%; border-radius:16px;" />
+        </div>
 
-        <!-- Special Message -->
-        <section class="special-message">
-            <div class="message-container">
-                <h2 id="specialMessageTitle">Just a Small Note For You 🌷</h2>
-                <p id="specialMessage1">
-                    I don’t know if anyone tells you this enough, but you’re genuinely a really good person.
-                    You have this calm vibe, and you make things feel lighter without even trying.
-                </p>
-                <p id="specialMessage2">
-                    I like talking to you. I like your energy.
-                    And honestly… you’re the kind of person I’d never want to lose.
-                    That’s it. That’s the message. 🌸
-                </p>
-                <div class="signature" id="signature">— Someone who lowkey admires you 😭✨</div>
-            </div>
-        </section>
+        <div class="memory-card">
+          <img src="images/2.jpg" style="width:100%; border-radius:16px;" />
+        </div>
 
-    </div>
+        <div class="memory-card">
+          <img src="images/3.jpg" style="width:100%; border-radius:16px;" />
+        </div>
+      </div>
+    </section>
 
-    <script src="script.js"></script>
+    <!-- Things I Like -->
+    <section class="memory-gallery">
+      <h2>Things I Like About You ✨</h2>
+      <div class="memories-grid">
+        <div class="memory-card" data-memory="late-night">
+          <div class="memory-icon">🌙</div>
+          <h3>Talking To You</h3>
+          <p id="memoryLateNight">It feels easy. Like I can be myself.</p>
+        </div>
+
+        <div class="memory-card" data-memory="first-meeting">
+          <div class="memory-icon">💫</div>
+          <h3>That One Day</h3>
+          <p id="memoryFirstMeeting">One day we’ll meet and I know it’ll be a good day.</p>
+        </div>
+
+        <div class="memory-card" data-memory="care">
+          <div class="memory-icon">🌷</div>
+          <h3>Your Energy</h3>
+          <p id="memoryCare">You’re genuinely sweet… and your presence is comforting.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Appreciation Meter -->
+    <section class="love-meter-section">
+      <h2>How Much I Appreciate You 🌸</h2>
+      <div class="love-meter">
+        <div class="meter-fill"></div>
+        <span class="love-percentage">100%</span>
+      </div>
+    </section>
+
+    <!-- Special Message -->
+    <section class="special-message">
+      <div class="message-container">
+        <h2 id="specialMessageTitle">Just a Small Note For You 🌷</h2>
+
+        <p id="specialMessage1">
+          I don’t know if anyone tells you this enough, but you’re genuinely a really good person.
+          You have this calm energy and you make things feel lighter without even trying.
+        </p>
+
+        <p id="specialMessage2">
+          I like talking to you. I like your vibe.<br /><br />
+          And honestly… you’re the kind of person I’d never want to lose.<br />
+          That’s it. That’s the message. 🌸
+        </p>
+
+        <div class="signature" id="signature">— Shreeshant 😅✨</div>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
